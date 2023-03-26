@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            body {
+                background-color: #202124;
+            }
+            #links {
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                display: flex;
+                padding: 20px;
+                margin-right: 40px;
+
+
+            }
+            div a {
+                margin: 25px;
+                width: 150%;
+                height: 100%;
+                background-color: none;
+                text-align: center;
+                color: white;
+                font-size: 13px;
+                font-family: arial, sans-serif;
+            }
+            a:link {
+                text-decoration: none;
+            }
+            img {
+                margin-bottom: 20px;
+            }
+            form {
+                margin: 200px auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            input[type="text"] {
+                width: 582.4px;
+                height: 15px;
+                margin: auto;
+                border-radius: 30px;
+                padding: 20px;
+                font-size: 20px;
+                background-color: #202124;
+                border: white 0.5px solid;
+                color: white;
+            }
+            input[type="submit"] {
+                width: 130px;
+                height: 35px;
+                text-align: center;
+                margin: 10px auto;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="https://google.com/search">
+            <img src="googlelogo_light_color_272x92dp.png" alt="google logo" width="272px" height="92">
+            <input type="text" name="q" id="a" placeholder="search anything you want">
+            <input type="submit" value="Google Search">
+        </form>
+        <div id="links">
+            <a href="image.html">Image search</a>
+            <a href="advanced.html" id="hmm">Advanced search</a>
+        </div>
+    </body>
+</html>
+</html>
